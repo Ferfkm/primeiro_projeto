@@ -22,9 +22,16 @@ img{
     margin-left: 500px;
     border: 10px solid green;
 }
-border-top: ; - borda superior
-border-bottom - borda inferior
-solid: Cria uma borda contínua e sólida.
-dashed: Exibe uma borda tracejada.
-dotted: Apresenta uma borda pontilhada.
-double: Cria uma borda com duas linhas paralelas.
+.img_cabecalho{
+    height: 60px;
+    width: 60px;
+    transition: 0.3s;
+}
+.img_cabecalho:hover{
+    opacity: 0.8;
+}
+header{
+display:flex;
+background-color: rgb(255, 251, 0);
+padding: 10px;
+}
